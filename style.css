@@ -8,3 +8,29 @@
     --ff-poppins:"Poppins", sans-serif;
     --ff-inter: "Inter", sans-serif;
 }
+
+/* Navbar */
+.navbar{
+    font-family: var(--ff-poppins);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* header-hero */
+
+
+
+/* tablet screen */
+@media (min-width: 500px) and (max-width: 980px) {
+    /* Navbar */
+
+    /* header-hero */
+
+}
+
+/* mobile screen */
+@media (max-width: 500px) {
+ /* Navbar */
+
+    /* header-hero */
+}
