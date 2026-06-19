@@ -23,14 +23,14 @@
 
 .header-section-1{
     height: 92vh;
-background-image: url(assests/WhatsApp\ Image\ 2026-03-27\ at\ 16.58.42\ 2.png);
+background-image: url("assests/Hero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}j
+}
 
 .header-section-1 h2 {
 
