@@ -31,13 +31,28 @@ background-image: url("assests/Hero.png");
     flex-direction: column;
     justify-content: center;
 }
-
+ 
 .header-section-1 h2 {
+color: white;
+font-size: 50px;
+font-family: var(--ff-poppins);
+font-weight: 600;
+padding-bottom: 1rem;
+}
 
+.header-section-1 p{
+color: white;
+font-family: var(--ff-poppins);
+width: 42rem;
 }
 
 .header-section-1 button {
-
+background-color: #F79E1B;
+color: white;
+width: 10rem;
+padding: 1rem;
+border-radius: 8px;
+border: none;
 }
 
 
@@ -47,7 +62,17 @@ background-image: url("assests/Hero.png");
     /* Navbar */
 
     /* header-hero */
+    .header-section-1 h2 {
+text-align: center;
+}
 
+.header-section-1 p{
+text-align: center;
+}
+
+.header-section-1 button{
+margin-left: 16rem;
+}
 }
 
 /* mobile screen */
@@ -55,4 +80,17 @@ background-image: url("assests/Hero.png");
  /* Navbar */
 
     /* header-hero */
+    .header-section-1 h2 {
+        font-size: 35px;
+text-align: center;
+}
+
+.header-section-1 p{
+text-align: center;
+width: 100%;
+}
+
+.header-section-1 button{
+margin-left: 8rem;
+}
 }
