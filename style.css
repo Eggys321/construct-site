@@ -40,7 +40,7 @@
 /* Section 1 */
 
 .header-section-1{
-    height: 92vh;
+    min-height: 92vh;
 background-image: url("assests/Hero.png");
     background-size: cover;
     background-position: center;
@@ -76,7 +76,7 @@ border: none;
 
 
 /* tablet screen */
-@media (min-width: 500px) and (max-width: 980px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
     /* Navbar */
 .navbar-nav {
     gap: 5px;
@@ -88,7 +88,7 @@ border: none;
     /* header-hero */
 
     .header-section-1 {
-        height: 70vh;
+        min-height: 70vh;
     }
     .header-section-1 h2 {
         font-size: 50px;
@@ -108,7 +108,7 @@ font-size: 20px;
 }
 
 /* mobile screen */
-@media (max-width: 500px) {
+@media (max-width: 767.98px){
  /* Navbar */
 .navbar-nav {
     gap: 1px;
@@ -120,7 +120,7 @@ font-size: 20px;
     /* header-hero */
 
         .header-section-1 {
-        height: 70vh;
+        min-height: 70vh;
     }
 
     .header-section-1 h2 {
