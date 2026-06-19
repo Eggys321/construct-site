@@ -19,6 +19,26 @@
 }
 
 /* header-hero */
+/* Section 1 */
+
+.header-section-1{
+    height: 92vh;
+background-image: url("assests/Hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-section-1 h2 {
+
+}
+
+.header-section-1 button {
+
+}
 
 
 
