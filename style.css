@@ -17,6 +17,24 @@
     font-weight: 500;
     font-size: 16px;
 }
+.nav-link{
+    color: var(--black-color);
+}
+
+.sign-up-btn{
+    background-color: var(--orange-color);
+    border: none;
+ color: var(--white-color);
+ padding: 11px 21px;
+ border-radius: 10px;
+}
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+.navbar-nav a:hover{
+    color: var(--orange-color);
+}
 
 /* header-hero */
 /* Section 1 */
@@ -60,6 +78,12 @@ border: none;
 /* tablet screen */
 @media (min-width: 500px) and (max-width: 980px) {
     /* Navbar */
+.navbar-nav {
+    gap: 5px;
+}
+.navbar-nav a:hover{
+    color:var(--black-color);
+}
 
     /* header-hero */
     .header-section-1 h2 {
@@ -78,6 +102,12 @@ margin-left: 16rem;
 /* mobile screen */
 @media (max-width: 500px) {
  /* Navbar */
+.navbar-nav {
+    gap: 1px;
+}
+.navbar-nav a:hover{
+    color:var(--black-color);
+}
 
     /* header-hero */
     .header-section-1 h2 {
