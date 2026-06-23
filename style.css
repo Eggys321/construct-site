@@ -47,8 +47,8 @@ background-image: url("assests/Hero.png");
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 20px 0;
+    justify-content: end;
+    padding: 0 0 45px 0;
 }
  
 .header-section-1 h2 {
@@ -165,6 +165,8 @@ top: 2rem;
     .header-section-1 {
         min-height: 70vh;
             padding: 20px 0;
+                justify-content: center;
+
 
     }
     .header-section-1 h2 {
@@ -199,6 +201,7 @@ font-size: 20px;
         .header-section-1 {
         min-height: 70vh;
             padding: 20px 0;
+            justify-content: center;
 
     }
 
