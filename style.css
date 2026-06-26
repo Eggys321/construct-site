@@ -3,6 +3,8 @@
 
 :root{
     --orange-color:#F79E1B;
+    --text-mute:#838383;
+    --mute-color:#FEF9F6;
     --black-color:#373737;
     --white-color:#FFFFFF;
     --ff-poppins:"Poppins", sans-serif;
@@ -147,6 +149,83 @@ top: 2rem;
 }
 
 
+/* .my-card{
+    position: relative;
+}
+.my-card-content{
+    position: absolute;
+    left: 18px;
+    bottom: -185px;
+} */
+
+/*  */
+
+.why-choose {
+  background: var(--mute-color);
+}
+
+/* Left column */
+.why-title {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.why-text {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.view-more-btn {
+  background: var(--orange-color);
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 0.65rem 1.5rem;
+  border-radius: 6px;
+  border: none;
+}
+.view-more-btn:hover {
+  background: #e0951c;
+  color: #fff;
+}
+
+/* Card */
+.feature-card {
+  position: relative;
+  border-radius: 22px;
+  padding: 2rem 1.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  z-index: 1;
+}
+
+.card-hook {
+  position: absolute;
+  top: -28px;
+  left: -28px;
+  width: 70px;
+  height: auto;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.card-number {
+  color: var(--orange-color);
+  font-weight: 800;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: var(--text-mute);
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
 
 
 
@@ -184,6 +263,12 @@ font-size: 20px;
 min-width: 100%;
 font-size: 20px;
 }
+/*  */
+ .card-hook {
+    width: 56px;
+    top: -22px;
+    left: -22px;
+  }
 }
 
 /* mobile screen */
@@ -218,4 +303,10 @@ width: 100%;
 .header-section-1 button{
 min-width: 100%;
 }
+/*  */
+ .feature-card { padding: 1.5rem 1.25rem; }
+  .card-hook {
+    display: none;
+   
+  }
 }
