@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
 
 :root {
   --orange-color: #f79e1b;
   --black-color: #373737;
   --white-color: #ffffff;
+  --light-grey:#838383;
+  --dark-color:#000000;
   --ff-poppins: "Poppins", sans-serif;
   --ff-inter: "Inter", sans-serif;
-  --ff-mona-sans:"Mona Sans", sans-serif;
+  --ff-mona-sans: "Mona Sans", sans-serif;
   --text-5xl: 4rem; /* 64px */
   --text-4xl: 3.5rem; /* 55px */
   --text-3xl: 2rem; /* 32px */
@@ -59,7 +61,7 @@ header {
   flex-direction: column;
   justify-content: end;
   border-radius: 22px;
-  margin: 40px 0;
+  /* margin: 40px 0; */
   color: var(--white-color);
   width: 100%;
   max-width: 1390px;
@@ -67,20 +69,42 @@ header {
   padding-inline: 0.75rem;
 }
 header > div {
-  /* padding-left: 30px; */
   padding-bottom: 45px;
 }
-header  h2{
-    font-size: var(--text-5xl);
-    font-family: var(--ff-mona-sans);
-    font-weight: 900;
+header h2 {
+  font-size: var(--text-5xl);
+  font-family: var(--ff-mona-sans);
+  font-weight: 900;
 }
-header p{
-    font-size: var(--text-xl);
-    font-family: var(--ff-poppins);
+header p {
+  font-size: var(--text-xl);
+  font-family: var(--ff-poppins);
+  font-weight: 400;
+  max-width: 50%;
+  padding-top: 20px;
+}
+/* main - section-1 */
+.img-div img{
+    border-radius: 20px;
+}
+.text-div{
+    font-family: var(--ff-inter);
+}
+.text-div h3{
+    font-size: var(--text-2xl);
+    font-weight: 600;
+    color: var(--black-color);
+}
+.text-div p{
     font-weight: 400;
-    max-width: 50%;
-    padding-top: 20px;
+    font-size: var(--text-md);
+    color: var(--light-grey);
+}
+@media(max-width:1280px){
+    header{
+          border-radius: 0;
+
+    }
 }
 
 /* tablet screen */
@@ -92,6 +116,31 @@ header p{
   .navbar-nav a:hover {
     color: var(--black-color);
   }
+   /* header */
+  header {
+    border-radius: 0;
+    justify-content: center;
+    min-height: 70vh;
+    padding-inline: 0;
+  }
+  header > div {
+    padding-bottom: 45px;
+  }
+  header h2 {
+    font-size: var(--text-4xl);
+    font-family: var(--ff-mona-sans);
+  }
+  header p {
+    font-size: var(--text-3xl);
+    max-width: 100%;
+  }
+    /* main - section-1 */
+.img-div img{
+    border-radius: 10px;
+}
+.text-div h3{
+    padding-top: 30px;
+}
 }
 
 /* mobile screen */
@@ -104,26 +153,29 @@ header p{
     color: var(--black-color);
   }
   /* header */
-  header{
-      border-radius: 0;
-        justify-content: center;
-
-
+  header {
+    border-radius: 0;
+    justify-content: center;
+    min-height: 70vh;
+    padding-inline: 0;
   }
   header > div {
-  /* padding-left: 30px; */
-  padding-bottom: 45px;
-}
-header  h2{
-    font-size: var(--text-2xl);
+    padding-bottom: 45px;
+  }
+  header h2 {
+    font-size: var(--text-3xl);
     font-family: var(--ff-mona-sans);
-    font-weight: 900;
-}
-header p{
+  }
+  header p {
     font-size: var(--text-lg);
-    font-family: var(--ff-poppins);
-    font-weight: 400;
     max-width: 100%;
-}
+  }
 
+  /* main - section-1 */
+.img-div img{
+    border-radius: 10px;
+}
+.text-div h3{
+    padding-top: 30px;
+}
 }
