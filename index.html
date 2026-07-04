@@ -69,7 +69,79 @@
     <!-- Main -->
     <main>
       <!-- Section 1 -->
-    
+      <section class="container section-1 my-5">
+        <div class="text-div">
+          <h2>Why choose us?</h2>
+          <p>
+            We will be happy to take on the implementation of a project of any
+            complexity.We guarantee the quality of our work and have many years
+            of experience in the field of repair.
+          </p>
+          <button>VIEW MORE</button>
+        </div>
+
+        <div class="card-div">
+          <!-- Card 1 -->
+          <!-- <div>
+            <img src="assests/Rectangle 10 (1).png" alt="" />
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h3 class="card-title">01.</h3>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Versatility
+                </h6>
+                <p class="card-text">
+                  We have a master for every household problem
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Card 2 -->
+          <!-- <div>
+            <img src="assests/Rectangle 10 (1).png" alt="" />
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h3 class="card-title">02.</h3>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Goodwill</h6>
+                <p class="card-text">
+                  Even if your less into design and more into content
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Card 3 -->
+          <!-- <div>
+            <img src="assests/Rectangle 10 (1).png" alt="" />
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h3 class="card-title">03.</h3>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Professionalism
+                </h6>
+                <p class="card-text">
+                  You made all the required mock ups for layout
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Card 4 -->
+          <!-- <div>
+            <img src="assests/Rectangle 10 (1).png" alt="" />
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h3 class="card-title">04.</h3>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Loyalty</h6>
+                <p class="card-text">
+                  Management system, got a license for it or adapted
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
     </main>
     <section class="why-choose py-5">
       <div class="container">
@@ -224,8 +296,9 @@
           adapted
         </p>
 
-        <div class="row g-4 flex-nowrap testimonials-row">
-          <div class="col-md-4">
+        <div class="row flex-nowrap testimonials-row">
+          <!-- Card 1 -->
+          <div class="col-md-3">
             <div class="testimonial-card">
               <div class="testimonial-header">
                 <img
@@ -239,12 +312,52 @@
                 </div>
               </div>
               <p class="testimonial-text">
-"From foundation to finishing, their team was on time and on budget. Zero hidden costs and they cleaned up every single day. Our 4-bedroom duplex was done 2 weeks early. Will use them again."
+                "From foundation to finishing, their team was on time and on budget. Zero hidden costs and they cleaned up every single day. Our 4-bedroom duplex was done 2 weeks early. Will use them again."
               </p>
             </div>
           </div>
-
-          <div class="col-md-4">
+<!-- Card 2 -->
+          <div class="col-md-3">
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  src="assests/Frame 124 (4).png"
+                  alt=""
+                  class="testimonial-avatar"
+                />
+                <div>
+                  <h5 class="testimonial-name">Matilda</h5>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                "They transformed our space completely. i was impressed by
+                their attention to detail."
+              </p>
+            </div>
+          </div>
+<!-- Card 3 -->
+          <div class="col-md-3">
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  src="assests/Frame 124 (4).png"
+                  alt=""
+                  class="testimonial-avatar"
+                />
+                <div>
+                  <h5 class="testimonial-name">Matilda</h5>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                "They transformed our space completely. i was impressed by
+                their attention to detail."
+              </p>
+            </div>
+          </div>
+<!-- Card 4 -->
+                    <div class="col-md-3">
             <div class="testimonial-card">
               <div class="testimonial-header">
                 <img
@@ -264,26 +377,8 @@
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="testimonial-card">
-              <div class="testimonial-header">
-                <img
-                  src="assests/Frame 124 (4).png"
-                  alt=""
-                  class="testimonial-avatar"
-                />
-                <div>
-                  <h5 class="testimonial-name">Matilda</h5>
-                  <div class="testimonial-stars">★★★★★</div>
-                </div>
-              </div>
-              <p class="testimonial-text">
-                "They transformed our space completely. i was impressed by
-                their attention to detail."
-              </p>
-            </div>
-          </div>
         </div>
+        
       </div>
     </section>
 
@@ -305,3 +400,19 @@
     ></script>
   </body>
 </html>
+
+
+<!-- 
+clamp() in CSS lets you set a value that can grow or shrink, but only within a limit.
+The format is: clamp(minimum, preferred, maximum)
+"Use the preferred value, but don't go below the minimum or above the maximum."
+
+Example:
+font-size: clamp(16px, 24px, 32px);
+This means:
+The font size will never be smaller than 16px.
+It will try to use 24px.
+It will never become larger than 32px.
+
+way to remember it is:
+clamp(min, preffered, max) = keep the value between two limits while allowing it to be responsive. -->
