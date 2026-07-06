@@ -150,8 +150,10 @@ main {
 
 /* Left column */
 .why-title {
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: 1rem;
+  font-family: var(--ff-poppins);
+  font-size: 47px;
 }
 
 .why-text {
@@ -180,6 +182,7 @@ main {
   padding: 2rem 1.75rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
   z-index: 1;
+  background-color: white;
 }
 
 .card-hook {
@@ -214,27 +217,33 @@ main {
 /* Services Tailored to you */
 
 .services-section {
-  background: var(--white-color);
+  background-color: rgba(249, 249, 249, 1);
 }
 
 .services-title {
-  font-weight: 800;
+  font-weight: 600;
   font-family: var(--ff-poppins);
   margin-bottom: 1rem;
+  font-size: 50px;
 }
 
 .services-text {
   color: var(--text-mute);
   font-family: var(--ff-inter);
-  max-width: 40rem;
+width: 546px;
+  font-size: 16px;
 }
 
 .service-card {
-  background: var(--mute-color);
+  background-color: white;
   border-radius: 22px;
   padding: 2rem 1.75rem;
   height: 100%;
   text-align: left;
+}
+
+.service-card img {
+    padding-bottom: 1rem;
 }
 
 .service-icon {
@@ -301,6 +310,7 @@ main {
   border-radius: 16px;
   padding: 1.75rem;
   height: 100%;
+  width: 120%;
 }
 
 .testimonial-header {
@@ -371,6 +381,10 @@ main {
 .contact-arrow-btn:hover {
   background: #e0951c;
   color: var(--white-color);
+}
+
+.contact-us-section img {
+
 }
 
 /* tablet screen */
@@ -457,6 +471,14 @@ min-width: 100%;
   }
 
   /* Services */
+
+  .services-title {
+  font-weight: 600;
+  font-family: var(--ff-poppins);
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
   .services-text {
     max-width: 100%;
   }
@@ -465,9 +487,11 @@ min-width: 100%;
   .testimonials-row {
     flex-wrap: nowrap;
   }
+
   .testimonial-card {
-    min-width: 260px;
-  }
+
+  width: 100%;
+}
 
   /* Contact us */
   .contact-us-section .container {
