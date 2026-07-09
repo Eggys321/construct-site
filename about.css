@@ -20,6 +20,9 @@
 .nav-link {
   color: var(--black-color);
 }
+.nav-link.active {
+  color: var(--orange-color);
+}
 
 .sign-up-btn {
   background-color: var(--orange-color);
@@ -36,6 +39,197 @@
   color: var(--orange-color);
 }
 
+/* About header */
+.about-hero-title {
+  font-family: var(--ff-poppins);
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--black-color);
+}
+.about-hero-text {
+  font-family: var(--ff-inter);
+  color: var(--text-mute);
+  max-width: 550px;
+  font-size: 16px;
+}
+.about-hero-img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* History */
+.history-badge {
+  display: inline-block;
+  font-family: var(--ff-poppins);
+  font-size: 14px;
+  color: var(--orange-color);
+  border: 1px solid var(--orange-color);
+  border-radius: 20px;
+  padding: 5px 18px;
+  margin-bottom: 15px;
+}
+.history-title {
+  font-family: var(--ff-poppins);
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--black-color);
+  margin-bottom: 20px;
+}
+.history-text {
+  font-family: var(--ff-inter);
+  color: var(--text-mute);
+  max-width: 750px;
+  font-size: 16px;
+}
+
+.value-card {
+  position: relative;
+  background-color: var(--white-color);
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  padding: 40px 25px 25px;
+  text-align: left;
+  height: 100%;
+  overflow: visible;
+}
+.corner-accent {
+  position: absolute;
+  top: -18px;
+  left: 24px;
+  width: 26px;
+  height: 34px;
+  background-color: var(--orange-color);
+  border-radius: 6px 6px 0 0;
+  -webkit-mask-image: radial-gradient(circle 12px at 100% 100%, transparent 99%, black 100%);
+  mask-image: radial-gradient(circle 12px at 100% 100%, transparent 99%, black 100%);
+}
+.value-card-title {
+  font-family: var(--ff-poppins);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--black-color);
+  margin-bottom: 12px;
+}
+.value-card-text {
+  font-family: var(--ff-inter);
+  color: var(--text-mute);
+  font-size: 15px;
+}
+
+/* Stats */
+.stats-box {
+  background-color: var(--mute-color);
+  border-radius: 20px;
+  padding: 40px 20px;
+}
+.stats-icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 10px;
+}
+.stats-number {
+  font-family: var(--ff-poppins);
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--black-color);
+  display: inline-block;
+}
+.stats-label {
+  font-family: var(--ff-inter);
+  color: var(--text-mute);
+  font-size: 15px;
+}
+
+.stats-item h3 {
+  font-weight: 600;
+}
+
+/* Team */
+.team-section {
+  background-color: #fdf1ea;
+}
+.team-title {
+  font-family: var(--ff-poppins);
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--black-color);
+}
+.team-text {
+  font-family: var(--ff-inter);
+  color: var(--text-mute);
+  max-width: 750px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.team-card {
+  text-align: left;
+}
+.team-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+.team-name {
+  font-family: var(--ff-poppins);
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--black-color);
+  margin-bottom: 2px;
+}
+.team-role {
+  font-family: var(--ff-inter);
+  color: var(--text-mute);
+  font-size: 14px;
+}
+
+/* Footer */
+.about-footer {
+  background-color: #111111;
+  color: var(--white-color);
+}
+.footer-brand {
+  font-family: var(--ff-poppins);
+  font-weight: 700;
+  font-size: 26px;
+  max-width: 250px;
+}
+.footer-links a {
+  display: block;
+  color: var(--white-color);
+  font-family: var(--ff-inter);
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 12px;
+  opacity: 0.85;
+}
+.footer-links a:hover {
+  color: var(--orange-color);
+  opacity: 1;
+}
+.footer-heading {
+  font-family: var(--ff-poppins);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.footer-text {
+  font-family: var(--ff-inter);
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+.footer-link-underline {
+  color: var(--white-color);
+  font-family: var(--ff-inter);
+  font-size: 14px;
+  text-decoration: underline;
+}
+.footer-link-underline:hover {
+  color: var(--orange-color);
+}
 
 /* tablet screen */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -47,6 +241,13 @@
     color: var(--black-color);
   }
 
+  .about-hero-title {
+    font-size: 36px;
+  }
+  .history-title,
+  .team-title {
+    font-size: 32px;
+  }
 }
 
 /* mobile screen */
@@ -57,5 +258,20 @@
   }
   .navbar-nav a:hover {
     color: var(--black-color);
+  }
+
+  .about-hero-title {
+    font-size: 28px;
+  }
+  .history-title,
+  .team-title {
+    font-size: 26px;
+  }
+  .value-card {
+    text-align: center;
+  }
+  .corner-accent {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
