@@ -290,7 +290,7 @@ width: 350px;
     padding: 30px 20px;
   }
   .visit-us-title {
-    font-size: 26px;
+    font-size: 27px;
   }
   .visit-us-text {
     max-width: 100%;
@@ -309,6 +309,7 @@ width: 350px;
 .visit-us-section img {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    
 }
 
 }
