@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --orange-color: #f79e1b;
+  --text-mute: #838383;
+  --mute-color: #fef9f6;
+  --black-color: #373737;
+  --white-color: #ffffff;
+  --ff-poppins: "Poppins", sans-serif;
+  --ff-inter: "Inter", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  font-family: var(--ff-poppins);
+  font-weight: 500;
+  font-size: 16px;
+}
+.nav-link {
+  color: var(--black-color);
+}
+.nav-link.active {
+  color: var(--orange-color);
+}
+
+.sign-up-btn {
+  background-color: var(--orange-color);
+  border: none;
+  color: var(--white-color);
+  padding: 11px 21px;
+  border-radius: 10px;
+}
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+.navbar-nav a:hover {
+  color: var(--orange-color);
+}
+
+/* Contact hero */
+.contact-hero-title {
+  font-family: var(--ff-inter);
+  font-weight: 600;
+  font-size: 50px;
+  color: var(--black-color);
+  margin-bottom: 20px;
+  width: 525px;
+}
+.contact-hero-text {
+  font-family: var(--ff-inter);
+  color: var(--text-mute);
+  font-size: 16px;
+  max-width: 480px;
+  margin-bottom: 30px;
+
+}
+
+.contact-info-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+background-color: rgba(249, 249, 249, 1);
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+.contact-info-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background-color: var(--mute-color);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.contact-info-icon img {
+  width: 20px;
+  height: 20px;
+}
+.contact-info-label {
+  font-family: var(--ff-inter);
+  color: var(--text-mute);
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+.contact-info-value {
+  font-family: var(--ff-poppins);
+  font-weight: 600;
+  color: var(--black-color);
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+/* Contact form */
+.contact-form {
+  background-color: rgba(249, 249, 249, 1);
+  border: 1px solid rgba(204, 204, 204, 1);
+  border-radius: 20px;
+  padding: 35px;
+}
+.contact-form .form-label {
+  font-family: var(--ff-inter);
+  color: var(--black-color);
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.contact-form .form-control {
+  font-family: var(--ff-inter);
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  padding: 12px 15px;
+  font-size: 15px;
+}
+.contact-form .form-control:focus {
+  box-shadow: none;
+  border-color: var(--orange-color);
+}
+.send-message-btn {
+  width: 100%;
+  background-color: var(--orange-color);
+  border: none;
+  color: var(--white-color);
+  font-family: var(--ff-poppins);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 14px;
+  border-radius: 10px;
+}
+.send-message-btn:hover {
+  opacity: 0.9;
+}
+
+/* Visit us */
+.visit-us-section {
+  background-color: rgba(249, 249, 249, 1);
+  margin: 5rem;
+  border-radius: 3rem;
+}
+
+.visit-us-section img {
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.visit-us-content {
+  padding: 60px;
+  height: 100%;
+}
+.visit-us-title {
+  font-family: var(--ff-poppins);
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--black-color);
+  margin-bottom: 15px;
+}
+.visit-us-text {
+  font-family: var(--ff-inter);
+  color: var(--text-mute);
+  font-size: 16px;
+  max-width: 420px;
+  margin-bottom: 25px;
+}
+.visit-us-section .row {
+  align-items: stretch;
+}
+.visit-us-section .col-lg-6 > img {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Footer */
+.about-footer {
+  background-color: #111111;
+  color: var(--white-color);
+}
+.footer-brand {
+  font-family: var(--ff-poppins);
+  font-weight: 700;
+  font-size: 26px;
+  max-width: 250px;
+}
+.footer-links a {
+  display: block;
+  color: var(--white-color);
+  font-family: var(--ff-inter);
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 12px;
+  opacity: 0.85;
+}
+.footer-links a:hover {
+  color: var(--orange-color);
+  opacity: 1;
+}
+.footer-heading {
+  font-family: var(--ff-poppins);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.footer-text {
+  font-family: var(--ff-inter);
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+.footer-link-underline {
+  color: var(--white-color);
+  font-family: var(--ff-inter);
+  font-size: 14px;
+  text-decoration: underline;
+}
+.footer-link-underline:hover {
+  color: var(--orange-color);
+}
+
+/* tablet screen */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Navbar */
+  .navbar-nav {
+    gap: 5px;
+  }
+  .navbar-nav a:hover {
+    color: var(--black-color);
+  }
+
+  .contact-hero-title {
+    font-size: 34px;
+  }
+  .contact-hero-text,
+  .contact-info-card {
+    max-width: 100%;
+  }
+  .visit-us-content {
+    padding: 40px;
+  }
+  .visit-us-title {
+    font-size: 32px;
+  }
+  .visit-us-section .col-lg-6 > img {
+    min-height: 300px;
+  }
+
+  .visit-us-section {
+  background-color: rgba(249, 249, 249, 1);
+  margin: 5rem;
+  border-radius: 3rem;
+}
+
+.visit-us-section img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+}
+
+/* mobile screen */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar-nav {
+    gap: 1px;
+  }
+  .navbar-nav a:hover {
+    color: var(--black-color);
+  }
+
+/* Contact hero */
+.contact-hero-title {
+width: 350px;
+    font-size: 36px;
+    text-align: center;
+}
+  .contact-hero-text,
+  .contact-info-card {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contact-form {
+    padding: 25px;
+  }
+  .visit-us-content {
+    padding: 30px 20px;
+  }
+  .visit-us-title {
+    font-size: 26px;
+  }
+  .visit-us-text {
+    max-width: 100%;
+  }
+  .visit-us-section .col-lg-6 > img {
+    min-height: 250px;
+  }
+
+  /* Visit us */
+.visit-us-section {
+  background-color: rgba(249, 249, 249, 1);
+  margin: 0;
+  border-radius: 0;
+}
+
+.visit-us-section img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+}
