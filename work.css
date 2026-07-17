@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 :root {
   --orange-color: #f79e1b;
   --text-mute: #838383;
@@ -44,154 +39,6 @@ html, body {
   color: var(--orange-color);
 }
 
-/* Work hero */
-.work-hero-wrapper {
-  position: relative;
-  border-radius: 20px;
-  overflow: hidden;
-}
-.work-hero-img {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  display: block;
-}
-.work-hero-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 40px;
-}
-.work-hero-title {
-  font-family: var(--ff-inter);
-  font-weight: 900;
-  font-size: 64px;
-  color: var(--white-color);
-  margin-bottom: 10px;
-}
-.work-hero-text {
-  font-family: var(--ff-poppins);
-  color: var(--white-color);
-  font-size: 24px;
-  max-width: 400px;
-  margin-bottom: 0;
-}
-
-/* Projects */
-.projects-badge {
-  display: inline-block;
-  font-family: var(--ff-poppins);
-  font-size: 14px;
-  color: var(--orange-color);
-  border: 1px solid var(--orange-color);
-  border-radius: 20px;
-  padding: 5px 18px;
-  margin-bottom: 15px;
-}
-.projects-title {
-  font-family: var(--ff-inter);
-  font-weight: 600;
-  font-size: 50px;
-  color: var(--black-color);
-}
-
-.project-card {
-  text-align: left;
-  margin-bottom: 20px;
-}
-.project-img {
-  width: 100%;
-  aspect-ratio: 399 / 313;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 20px;
-  display: block;
-}
-.project-title {
-  font-family: var(--ff-inter);
-  font-weight: 400;
-  font-size: 28px;
-  color: var(--black-color);
-  margin-bottom: 8px;
-}
-.project-text {
-  font-family: var(--ff-inter);
-  color: var(--text-mute);
-  font-size: 20px;
-  margin-bottom: 12px;
-  font-weight: 400;
-}
-.view-project-link {
-  font-family: var(--ff-inter);
-  font-weight: 400;
-  font-size: 20px;
-  color: var(--orange-color);
-  text-decoration: none;
-}
-
-.view-project-link:hover {
-  text-decoration: underline;
-}
-
-/* Stats */
-.stats-box {
-  background-color: var(--mute-color);
-  border-radius: 20px;
-  padding: 40px 20px;
-}
-.stats-icon {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 10px;
-}
-.stats-number {
-  font-family: var(--ff-inter);
-  font-weight: 600;
-  font-size: 40px;
-  color: var(--black-color);
-  display: inline-block;
-}
-.stats-label {
-  font-family: var(--ff-inter);
-  color: var(--text-mute);
-  font-size: 15px;
-}
-
-/* Contact us CTA */
-.heard-enough {
-  font-family: var(--ff-poppins);
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 1px;
-  color: var(--text-mute);
-  margin-bottom: 10px;
-}
-.contact-cta-title {
-  font-family: var(--ff-poppins);
-  font-weight: 700;
-  font-size: 48px;
-  color: var(--black-color);
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: var(--orange-color);
-  margin-bottom: 0;
-}
-.contact-cta-arrow-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 60px;
-  background-color: var(--orange-color);
-  border-radius: 50%;
-}
-.contact-cta-arrow-btn img {
-  width: 24px;
-  height: 24px;
-}
-
-
 /* tablet screen */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
@@ -200,19 +47,6 @@ html, body {
   }
   .navbar-nav a:hover {
     color: var(--black-color);
-  }
-
-  .work-hero-img {
-    height: 400px;
-  }
-  .work-hero-title {
-    font-size: 36px;
-  }
-  .projects-title {
-    font-size: 32px;
-  }
-  .contact-cta-title {
-    font-size: 36px;
   }
 }
 
@@ -226,27 +60,4 @@ html, body {
     color: var(--black-color);
   }
 
-  .work-hero-img {
-    height: 320px;
-  }
-  .work-hero-title {
-    font-size: 28px;
-  }
-  .work-hero-overlay {
-    padding: 25px;
-  }
-  .projects-title {
-    font-size: 26px;
-  }
-  .project-card {
-    margin-bottom: 35px;
-  }
-  .contact-cta-section .container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-  }
-  .contact-cta-title {
-    font-size: 30px;
-  }
 }

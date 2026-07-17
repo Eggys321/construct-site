@@ -87,7 +87,7 @@
 
 .history-div img {
 left: -0.5rem;
-top: -1rem;
+top: -1.25rem;
 position: absolute;
 z-index: 2;
 }
@@ -133,6 +133,10 @@ z-index: 2;
   font-size: 40px;
   color: var(--black-color);
   display: inline-block;
+}
+
+#stats-h3 {
+  font-size: 39px;
 }
 .stats-label {
   font-family: var(--ff-inter);
@@ -197,6 +201,11 @@ z-index: 2;
   .team-title {
     font-size: 32px;
   }
+
+    .history-text {
+width: 100%;
+font-size: 16px;
+  }
 }
 
 /* mobile screen */
@@ -212,10 +221,13 @@ z-index: 2;
   .about-hero-title {
     font-size: 28px;
   }
+
+
   .history-title,
   .team-title {
     font-size: 26px;
   }
+
   .history-text {
 
   }

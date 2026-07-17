@@ -138,7 +138,7 @@ background-color: rgba(249, 249, 249, 1);
 /* Visit us */
 .visit-us-section {
   background-color: rgba(249, 249, 249, 1);
-  margin: 5rem;
+  margin: 4rem;
   border-radius: 3rem;
 }
 
@@ -165,61 +165,23 @@ background-color: rgba(249, 249, 249, 1);
   max-width: 420px;
   margin-bottom: 25px;
 }
-.visit-us-section .row {
-  align-items: stretch;
-}
+
 .visit-us-section .col-lg-6 > img {
-  width: 100%;
+  width: 110%;
   height: 100%;
   min-height: 400px;
   object-fit: cover;
   display: block;
 }
 
-/* Footer */
-.about-footer {
-  background-color: #111111;
-  color: var(--white-color);
+
+.visit-us-1 {
+    z-index: 2;
+    width: 90%;
 }
-.footer-brand {
-  font-family: var(--ff-poppins);
-  font-weight: 700;
-  font-size: 26px;
-  max-width: 250px;
-}
-.footer-links a {
-  display: block;
-  color: var(--white-color);
-  font-family: var(--ff-inter);
-  font-size: 15px;
-  text-decoration: none;
-  margin-bottom: 12px;
-  opacity: 0.85;
-}
-.footer-links a:hover {
-  color: var(--orange-color);
-  opacity: 1;
-}
-.footer-heading {
-  font-family: var(--ff-poppins);
-  font-weight: 600;
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-.footer-text {
-  font-family: var(--ff-inter);
-  font-size: 14px;
-  opacity: 0.8;
-  margin-bottom: 8px;
-}
-.footer-link-underline {
-  color: var(--white-color);
-  font-family: var(--ff-inter);
-  font-size: 14px;
-  text-decoration: underline;
-}
-.footer-link-underline:hover {
-  color: var(--orange-color);
+
+.visit-us-2 {
+    z-index: 1;
 }
 
 /* tablet screen */
@@ -272,7 +234,14 @@ background-color: rgba(249, 249, 249, 1);
     color: var(--black-color);
   }
 
+
+  main {
+    overflow-x: hidden;
+  }
 /* Contact hero */
+main {
+    overflow-x: hidden;
+}
 .contact-hero-title {
 width: 350px;
     font-size: 36px;
@@ -290,7 +259,7 @@ width: 350px;
     padding: 30px 20px;
   }
   .visit-us-title {
-    font-size: 26px;
+    font-size: 27px;
   }
   .visit-us-text {
     max-width: 100%;
@@ -304,11 +273,13 @@ width: 350px;
   background-color: rgba(249, 249, 249, 1);
   margin: 0;
   border-radius: 0;
+flex-direction: column;
 }
 
 .visit-us-section img {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    
 }
 
 }
