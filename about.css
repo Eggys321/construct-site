@@ -212,13 +212,17 @@ z-index: 2;
   .about-hero-title {
     font-size: 28px;
   }
+
+
   .history-title,
   .team-title {
     font-size: 26px;
   }
-  .history-text {
 
-  }
+  .history-text {
+  width: 350px;
+  font-size: 14px;
+}
 
   .value-card {
     text-align: center;
