@@ -191,6 +191,24 @@ html, body {
   height: 24px;
 }
 
+.cta-div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+
+.cta-p {
+    padding: 1.5rem 3rem 0 0;
+  font-weight: 500;
+  font-family: var(--ff-poppins);
+  font-size: 16px;
+}
+
+.contact-cta-section img {
+padding-top: 0.5rem;
+}
+
 
 /* tablet screen */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -249,4 +267,23 @@ html, body {
   .contact-cta-title {
     font-size: 30px;
   }
+
+  .cta-div {
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+width: 100%;
+}
+
+
+.cta-p {
+    padding:0;
+  font-weight: 500;
+  font-family: var(--ff-poppins);
+  font-size: 16px;
+}
+
+.contact-cta-section img {
+padding-top: 0.5rem;
+}
 }

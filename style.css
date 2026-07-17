@@ -384,7 +384,9 @@ width: 546px;
   color: var(--white-color);
 }
 
-
+.contact-us-section img {
+  padding-top: 0.5rem;
+}
 /* tablet screen */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
