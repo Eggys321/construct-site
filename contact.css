@@ -234,6 +234,10 @@ background-color: rgba(249, 249, 249, 1);
     color: var(--black-color);
   }
 
+
+  main {
+    overflow-x: hidden;
+  }
 /* Contact hero */
 main {
     overflow-x: hidden;
