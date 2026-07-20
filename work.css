@@ -100,6 +100,11 @@ html, body {
   text-align: left;
   margin-bottom: 20px;
 }
+
+.project-card h4 {
+
+}
+
 .project-img {
   width: 100%;
   aspect-ratio: 399 / 313;
@@ -198,6 +203,13 @@ html, body {
 
 .cta-div p {
   padding: 1.5rem 2rem 0 0;
+  font-family: var(--ff-poppins);
+  font-weight: 500;
+  font-style: 16px;
+}
+
+#hammer-img {
+padding-top: 0.4rem;
 }
 
 #hammer-img {
@@ -261,4 +273,11 @@ padding-top: 0.5rem;
   .contact-cta-title {
     font-size: 30px;
   }
+
+  .cta-div {
+  display: flex;
+flex-direction: column;
+text-align: center;
+}
+
 }

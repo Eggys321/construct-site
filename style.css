@@ -379,10 +379,7 @@ width: 546px;
   font-size: 1.25rem;
   text-decoration: none;
 }
-.contact-arrow-btn:hover {
-  background: #e0951c;
-  color: var(--white-color);
-}
+
 
 .contact-us-section img {
   padding-top: 0.5rem;
