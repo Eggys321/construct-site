@@ -228,9 +228,9 @@ font-size: 16px;
     font-size: 26px;
   }
 
-  .history-text {
-
-  }
+.history-text {
+  width: 100%;
+}
 
   .value-card {
     text-align: center;
