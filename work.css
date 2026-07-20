@@ -212,6 +212,10 @@ html, body {
 padding-top: 0.4rem;
 }
 
+#hammer-img {
+padding-top: 0.5rem;
+}
+
 /* tablet screen */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
