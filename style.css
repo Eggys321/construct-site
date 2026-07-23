@@ -384,6 +384,13 @@ width: 546px;
 .contact-us-section img {
   padding-top: 0.5rem;
 }
+
+.cta-div {
+  display: flex;
+align-items: center;
+gap: 1rem;
+}
+
 /* tablet screen */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
