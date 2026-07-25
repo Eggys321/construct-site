@@ -405,7 +405,8 @@ footer p, h3 {
 }
 
 .footer-div {
-  gap: 10rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-p {
@@ -426,6 +427,12 @@ footer h3 {
 footer #p-1 {
   padding: 1rem 0;
 }
+
+footer .div-5, .div-6 {
+display: flex;
+gap: 9rem;
+}
+
 /* tablet screen */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
@@ -476,6 +483,17 @@ footer #p-1 {
 
 footer h3 {
   font-size: 24px;
+}
+
+
+footer .div-5, .div-6 {
+display: flex;
+gap: 8rem;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
 }
 }
 
@@ -563,9 +581,21 @@ min-width: 100%;
 }
 
 .footer-div {
-  gap: 2rem;
+
 }
 
+footer .div-5, .div-6 {
+display: flex;
+flex-direction: column;
+}
 
+.footer-div {
+  display: flex;
+  flex-direction: column;
+}
 
+footer .div-5, .div-6 {
+display: flex;
+gap: 0em;
+}
 }
